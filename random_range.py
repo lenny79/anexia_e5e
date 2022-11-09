@@ -1,4 +1,4 @@
-import randrange from random
+from random import randrange
 
 def rndrange(a, b):
   rnd_num = randrange(a, b)
