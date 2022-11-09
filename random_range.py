@@ -4,7 +4,7 @@ def rndrange(event, context):
   rnd_num = 0
   
   try:
-    a, b = int(event['data']['a']), int(event['data']['b'])
+    a, b = int(event['params']['a']), int(event['params']['b'])
     rnd_num = randrange(a, b)
   
   except Exception:
