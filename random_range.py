@@ -1,5 +1,5 @@
 import random
 
-def rndrange(from_range, to_range):
-  rnd_num = random.randint(from_range, to_range)
+def rndrange(a, b):
+  rnd_num = randrange(a, b)
   return rnd_num
