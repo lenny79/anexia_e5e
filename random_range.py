@@ -10,5 +10,5 @@ def rndrange(event, context):
   except Exception:
     a, b = 0, 0
       
-  returnstr = "Output: " + str(rnd_num) + " / First Argument: " + str(event) + " / Second Argument: " + str(context)
+  returnstr = "Output: " + str(rnd_num) + " / First Argument: " + str(event) + " / Second Argument: " + str(context) + " / a: " + str(a) + " / b: " + str(b)
   return returnstr
